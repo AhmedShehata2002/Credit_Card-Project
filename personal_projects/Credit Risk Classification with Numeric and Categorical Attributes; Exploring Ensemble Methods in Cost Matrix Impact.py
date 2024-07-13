@@ -41,7 +41,7 @@
 get_ipython().system(' pip install black')
 
 
-# In[3]:
+# In[250]:
 
 
 # Libraries to help with reading and manipulating data
@@ -67,7 +67,7 @@ import statsmodels.api as sm
 from statsmodels.stats.outliers_influence import variance_inflation_factor
 
 
-# In[4]:
+# In[251]:
 
 
 # To build model for prediction
@@ -116,7 +116,7 @@ from sklearn.metrics import (
 )
 
 
-# In[5]:
+# In[252]:
 
 
 # To be used for data scaling and one hot encoding
@@ -144,7 +144,7 @@ warnings.filterwarnings("ignore")
 #%load_ext nb_black
 
 
-# In[6]:
+# In[253]:
 
 
 df = pd.read_csv('credit.csv')
@@ -152,27 +152,25 @@ df = pd.read_csv('credit.csv')
 
 # ## Summary of the data 
 
-# In[7]:
+# In[254]:
 
 
 df.head()
 
 
-# In[8]:
+# In[255]:
 
 
 df.info()
 
 
-# In[9]:
+# In[256]:
 
 
 df.describe()
 
 
-# ## Missing Values 
-
-# In[10]:
+# In[257]:
 
 
 df.isnull().values.any()
@@ -184,14 +182,6 @@ df.isnull().values.any()
 
 
 df.isnull().sum()
-
-
-# ## Duplicate Values 
-
-# In[11]:
-
-
-df.duplicated().sum()
 
 
 # In[259]:
