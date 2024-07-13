@@ -13,6 +13,6 @@ Analyzing subscription churn rates for Codeflix, a streaming service, using adva
 ### Skills/Libraries Used:
 SQL techniques such as aggregates, unions, temporary tables, cross joins, and case statements are employed to extract meaningful insights from the data. Advanced SQL techniques for data manipulation and analysis, including aggregates, unions, temporary tables, cross joins, case statements, and aliasing.
 
-3.  ## Oura Health Ring//Ollama Panda's AI Integration for Data Analysis:
+3. ## Oura Health Ring//Ollama Panda's AI Integration for Data Analysis:
 ### Objective:
 This is my next upcoming project in this project. Integrating Panda's AI with Groq and Ollama to create an intuitive interface for interactive database queries and rapid analytics. The project focuses on enabling efficient data integration and analysis using AI-driven tools, enhancing the usability and insights derived from database interactions.
