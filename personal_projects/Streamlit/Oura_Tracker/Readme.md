@@ -1,9 +1,8 @@
-This is a Whoop Streamlit Project 
-# Chat with your Dataset
+# Chat with my WHOOP Data 
 
 This project demonstrates a web-based application to query a dataset through natural language.
 
-![](./assets/image.png)
+![](./Whoop_Pic.png)
 
 For this purpose, it uses:
 
@@ -12,17 +11,15 @@ For this purpose, it uses:
 
 ## Download dataset
 
-Download the [dataset](https://github.com/Fraud-Detection-Handbook/simulated-data-transformed) into the `data` folder at the root of the project.
+Download the [dataset](https://github.com/AhmedShehata2002/Personal_Projects/edit/main/personal_projects/Streamlit/Oura_Tracker/physiological_cycles.csv).
 
 ## Run the project
-
-If you don't have a Python environment available, you can use the [conda package manager](https://docs.conda.io/projects/conda/en/latest/index.html) which comes with the [Anaconda distribution](https://www.anaconda.com/download) to manage a clean Python environment.
 
 Create a new environment and activate it:
 
 ```sh
 conda create -n streamlit-pandasai python=3.9
-conda activate streamlit-pandasai
+conda activate main.py
 ```
 
 Install Python dependencies in the activate Python environment:
