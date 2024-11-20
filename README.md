@@ -25,6 +25,12 @@ SQL techniques such as aggregates, unions, temporary tables, cross joins, and ca
 
 # AI intergation  
 
-4. ## Oura Health Ring//Ollama Panda's AI Integration for Data Analysis:
+4. ## Oura/ WHOOP Health Web App//Streamlit Panda's AI Integration for Data Analysis:
 ### Objective:
-This is my next upcoming project in this project. Integrating Panda's AI with Groq and Ollama to create an intuitive interface for interactive database queries and rapid analytics. The project focuses on enabling efficient data integration and analysis using AI-driven tools, enhancing the usability and insights derived from database interactions.
+This project showcases the development of a Streamlit application that integrates conversational AI to analyze health and wellness data from Oura and WHOOP devices. The app provides users with intuitive, data-driven insights into their activity, sleep, and recovery metrics, emphasizing user engagement and personalized health tracking."
+
+### Skills Used 
+Developed expertise in Streamlit for creating interactive web applications, implemented conversational AI for user engagement, conducted data analysis and visualization using Python libraries like Pandas and Matplotlib, integrated APIs for real-time data retrieval, and managed back-end development with a focus on efficient data pipelines and seamless user experience.
+
+<small>There is also an FPL project in the Streamlit folder where I integrated AI to analyze FPL data.</small>
+
