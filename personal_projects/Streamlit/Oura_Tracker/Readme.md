@@ -1,8 +1,8 @@
-# Chat with my WHOOP Data 
+# Chat with my Oura Data 
 
 This project demonstrates a web-based application to query a dataset through natural language.
 
-![](./Whoop_Pic.png)
+![](./Oura_Pic.png)
 
 For this purpose, it uses:
 
@@ -11,7 +11,7 @@ For this purpose, it uses:
 
 ## Download dataset
 
-Download the [dataset](https://github.com/AhmedShehata2002/Personal_Projects/edit/main/personal_projects/Streamlit/Oura_Tracker/physiological_cycles.csv).
+Download the [dataset](https://github.com/AhmedShehata2002/Personal_Projects/edit/main/personal_projects/Streamlit/Oura_Tracker/Oura.csv).
 
 ## Run the project
 
