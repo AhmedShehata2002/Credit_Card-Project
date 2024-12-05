@@ -34,7 +34,7 @@ Developed expertise in Streamlit for creating interactive web applications, impl
 
 5. ## PDF Talk
 ### Objective: 
-TalkPDF is a Streamlit-based web application that enables users to interact with their PDF documents in a conversational manner. With TalkPDF, you can upload a PDF file, extract its content, and ask questions about it, leveraging the power of OpenAI's GPT models.The goal of this project is to bridge the gap in science communication. 
+TalkPDF is a Streamlit-based web application that enables users to interact with their PDF documents in a conversational manner. With TalkPDF, you can upload a PDF file, extract its content, and ask questions about it, leveraging the power of OpenAI's GPT models. The goal of this project is to bridge the gap in science communication. 
 
 ## Skills Used   
 - Streamlit for building an intuitive and interactive web interface, pdfplumber for extracting text from PDF documents, OpenAI's GPT API for conversational AI integration and Python for back-end development and data handling. 
