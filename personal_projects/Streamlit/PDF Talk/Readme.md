@@ -24,13 +24,13 @@ Pip package manager
 
 Steps
 1. Clone the repository:
-```bash
+```sh
 Copy code
 git clone https://github.com/your-username/talkpdf.git  
 cd talkpdf
 ```
 2. Install dependencies:
-```bash
+```sh
 Copy code
 pip install -r requirements.txt
 ```
@@ -42,7 +42,7 @@ Copy code
 export OPENAI_API_KEY="your-api-key"
  ```
 5. Run the application:
- ```bash
+ ```sh
 Copy code
 streamlit run app.py
 ``` 
