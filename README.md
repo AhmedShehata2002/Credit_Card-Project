@@ -32,5 +32,12 @@ This project showcases the development of a Streamlit application that integrate
 ### Skills Used 
 Developed expertise in Streamlit for creating interactive web applications, implemented conversational AI for user engagement, conducted data analysis and visualization using Python libraries like Pandas and Matplotlib, integrated APIs for real-time data retrieval, and managed back-end development with a focus on efficient data pipelines and seamless user experience.
 
+5. ## PDF Talk
+### Objective: 
+TalkPDF is a Streamlit-based web application that enables users to interact with their PDF documents in a conversational manner. With TalkPDF, you can upload a PDF file, extract its content, and ask questions about it, leveraging the power of OpenAI's GPT models.The goal of this project is to bridge the gap in science communication
+
+## Skills Used   
+- Streamlit for building an intuitive and interactive web interface, pdfplumber for extracting text from PDF documents, OpenAI's GPT API for conversational AI integration and Python for back-end development and data handling. 
+
 <small>There is also an FPL project in the Streamlit folder where I integrated AI to analyze FPL data.</small>
 
