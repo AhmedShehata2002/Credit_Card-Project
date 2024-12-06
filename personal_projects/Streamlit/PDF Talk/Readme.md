@@ -40,5 +40,5 @@ export OPENAI_API_KEY="your-api-key"
  ```
 5. Run the application:
  ```sh
-streamlit run app.py
+streamlit run main.py
 ``` 
