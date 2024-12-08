@@ -29,30 +29,29 @@ if uploaded_file is not None:
         query = st.text_area("🗣️ Ask a question about the text in the PDF")
 
         if query:
-            # Initialize the OpenAI API
-            api_key = os.getenv("OPENAI_API_KEY")
-            if not api_key:
-                st.error("Please set the OPENAI_API_KEY environment variable.")
-            else:
+            # Retrieve OpenAI API key from environment variable
+            try:
+                openai.api_key = os.getenv("OPENAI_API_KEY")
+                if not openai.api_key:
+                    st.error("Please set the OPENAI_API_KEY environment variable in your terminal.")
+                    st.stop()
+
                 # Query OpenAI API
-                try:
-                    openai.api_key = api_key
+                response = openai.ChatCompletion.create(
+                    model="gpt-3.5-turbo",
+                    messages=[
+                        {"role": "system", "content": "You are an assistant skilled at analyzing text data."},
+                        {"role": "user", "content": f"Here is the extracted text:\n{extracted_text}\n\n{query}"}
+                    ],
+                )
 
-                    # Create a chat completion request
-                    response = openai.ChatCompletion.create(
-                        model="gpt-4",  # You can switch to "gpt-3.5-turbo" if needed
-                        messages=[
-                            {"role": "system", "content": "You are an assistant skilled at analyzing text data."},
-                            {"role": "user", "content": f"Here is the extracted text:\n{extracted_text}\n\n{query}"}
-                        ],
-                    )
+                # Display the ChatGPT response
+                st.write("### ChatGPT Response:")
+                st.write(response["choices"][0]["message"]["content"])
 
-                    # Display the ChatGPT response
-                    st.write("### ChatGPT Response:")
-                    st.write(response["choices"][0]["message"]["content"])
-
-                except Exception as e:
-                    st.error(f"Error interacting with ChatGPT API: {e}")
+            except Exception as e:
+                # Handle any errors from the OpenAI API
+                st.error(f"Error interacting with ChatGPT API: {e}")
 
     except Exception as e:
         st.error(f"Error processing the PDF: {e}")
