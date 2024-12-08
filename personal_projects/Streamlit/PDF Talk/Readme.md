@@ -25,8 +25,8 @@ Pip package manager
 Steps
 1. Clone the repository:
 ```sh
-git clone https://github.com/your-username/talkpdf.git  
-cd talkpdf
+git clone https://github.com/AhmedShehata2002/Personal_Projects.git
+cd Personal_Projects/personal_projects/Streamlit/PDF\ Talk
 ```
 2. Install dependencies:
 ```sh
