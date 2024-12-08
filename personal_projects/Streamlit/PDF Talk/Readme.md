@@ -1,4 +1,4 @@
-# TalkPDF 📄🤖
+# PDF Talk 📄🤖
 TalkPDF is a Streamlit-based web application that allows users to upload PDF files, extract their content, and interact with the data conversationally using OpenAI's GPT API. Whether you're analyzing reports, summarizing documents, or exploring insights, TalkPDF makes it easy to chat with your documents.
 
 ### Features ✨
