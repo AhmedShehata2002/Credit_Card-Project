@@ -42,6 +42,6 @@ export OPENAI_API_KEY="your-api-key"
  ```sh
 streamlit run main.py
 ``` 
-This is a sentence with a footnote.[^1]
+## Notes
 
-[^1]: This is the footnote text.
+This project is under active development. Do these steps in terminal. 
