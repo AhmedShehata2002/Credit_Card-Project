@@ -42,3 +42,4 @@ export OPENAI_API_KEY="your-api-key"
  ```sh
 streamlit run main.py
 ``` 
+[^1]: Do this in Terminal.
