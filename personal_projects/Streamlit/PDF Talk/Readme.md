@@ -42,4 +42,6 @@ export OPENAI_API_KEY="your-api-key"
  ```sh
 streamlit run main.py
 ``` 
-[^1]: Do this in Terminal.
+This is a sentence with a footnote.[^1]
+
+[^1]: This is the footnote text.
