@@ -6,9 +6,7 @@ PDF talk is a Streamlit-based web application that allows users to upload PDF fi
 📝 Extract Text: Automatically extracts text from uploaded PDF files.
 💬 AI-Powered Conversations: Ask questions about the PDF content and get intelligent responses powered by OpenAI GPT models.
 🌐 Streamlit Interface: Clean, interactive, and user-friendly interface.
-Demo 🚀
 
-Replace with a screenshot or a GIF showcasing your app in action.
 
 ### How It Works 🛠️
 Upload a PDF file.
